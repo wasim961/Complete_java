@@ -1,0 +1,11 @@
+                                          JAVA
+                                          
+    Array is used for fixed size collection of same type data. Array elements are accessed by index.
+    indices are 0 based i.e. start from 0 and goes till arr.length-1.
+ Note--- without index variable we can traverse array elements using foreach loop.
+    Prefered way to create Array---
+        dataType[] arrayRefVar = new dataType[arraySize];
+        dataType[] arrayRefVar = {value0, value1, ..., valueN};
+        
+    Prefered way to declare array Variables----
+        dataType[] arrayRefVar;

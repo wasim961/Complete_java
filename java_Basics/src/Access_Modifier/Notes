@@ -1,0 +1,19 @@
+                                              Modifier
+          
+          
+          To set access level for a class,variables,methods and constructor. the four access level are
+          
+          1)  Visible to the package. default no modifier are required
+          2)  visible to the class only (private)
+          3)  visible to the world      (public)
+          4)  visible to the package and all sub classes  (protected)
+          
+                                             Non- Access Modifier
+                                            
+          non access modifier to achive many other functionality----
+          
+          The static modifier for creating class methods and variables.
+          The final modifier for finalizing the implementation of classes, methods, and variables
+          The abstract modifier for creating abstract classes and methods.
+          The synchronized and volatile modifiers which are used for threads.
+          

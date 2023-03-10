@@ -1,0 +1,31 @@
+                                Primitive Data Types
+                        
+          byte:   8 bit signed two's compliment. max value: 2^7-1
+          short:  16 bit two's complement. 2 times smaller than integer. max valu: 2^15-1
+          int:  32 bit signed two's complement. max value: 2^31-1
+          long: 64 bit signed two's compliment intger, max value: 2^63-1
+          float:  32 bit float is mainly used for saved memory in large arrays of floating point numbers
+          default value : 0.0f
+          double: 64 bit used as the default data types for decimal values. default value is 0.0d
+          boolean:  represent only one bit of information, there is only two possible value true or false used 
+          for simple flags that track true/false conditions. default value is false 
+          char:  16 bit   used to store any character A = 'A'
+          
+          
+                                 Non-Primitive or Refrence data
+          
+          class objects
+          Array
+          stack
+          
+          Example:    Animal animal = new Animal("giraffe")
+          
+          
+                                      JAVA Literals
+          
+          source code representation of a fixed value. They are represented directly in code without
+          any computation.
+          example:   byte a = 68;
+                     char a = 'a';
+                     int decimal = 100;
+                     int octal = 0144;

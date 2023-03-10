@@ -1,0 +1,4 @@
+                                      .equals()
+                                      
+  The method determines whether the Number object that invokes the method is equal to the object 
+  that is passed as an argument.

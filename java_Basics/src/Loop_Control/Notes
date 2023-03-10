@@ -1,0 +1,39 @@
+                                              While Loop
+                                              
+          1) May be a single statement or block of statement and condition may be expression.
+          2) When executing if the boolean expression result is true, then the action inside the loop
+           will be executed. This will continue as long as the expression result is true.
+          
+          
+          
+          
+                                               For Loop
+                                               
+          A for loop is a repetition control structure that allows you to efficiently write a loop that
+           needs to be executed a specific number of times.
+          A for loop is useful when you know how many times a task is to be repeated.
+          
+          for(initialization; Boolean_expression; update) {
+   // Statements
+}
+
+                                                  Do While Loop
+                                                  
+          A do...while loop is similar to a while loop, except that a do...while loop is guaranteed to execute at
+           least one time.
+           do {
+                 // Statements
+              }
+              while(Boolean_expression);
+              
+           
+                                                   Enhanced For Loop
+                                                   
+           This is mainly used to traverse collection of elements including arrays.
+           for(declaration : expression) {
+                   // Statements
+                 }   
+              
+              
+              
+              

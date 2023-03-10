@@ -1,0 +1,14 @@
+                                           String Class
+                                           
+String are sequence of character. String are treated as object.
+String class are immutable, so that once it is created a sring object cannot be changed.
+If there is a necessity to make a lot of modifications to Strings of characters, then you should
+ use String Buffer & String Builder-
+ 
+ what is StringBuffer and StringBuilder----
+ 
+                StringBuffer                                              StringBuilder
+ 1) Thread safe and synchronised                            1) not thread safe (not snchronised)
+ 2) introduced in java 1.0                                  2) introduced in java 1.5
+ 3) if the thred saftey is nessesry the                     3) faster than StringBuffer
+    best option is StringBuffer

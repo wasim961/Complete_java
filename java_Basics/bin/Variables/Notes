@@ -1,0 +1,29 @@
+                                           Variables
+             
+             1. Local Variables
+             2. Instance Variables
+             3. Class/Static variables
+             
+             
+             1. Local Variables:
+              
+            (i)    declred in methods, constructors,or blocks.
+            (ii)   local variables are created when the method , constructors,or block is entered and
+                   the variable will be destroyed once it exits the method, construcor, or block.
+           (iii)   Access modifier can't be used for local variables.
+             iv)   local var are only visible within the declared method, constructor or block.
+             v)    implemented at stack level internally
+             vi)   there are no default value for local var. so local variable should be declared and 
+                   initial value should be assigned before the first use.
+                   
+             2. Instance Variables:
+             
+             i)  Instance variables are declared in a class, but outside a method, constructor or any block
+            ii)   When a space is allocated for an object in the heap, a slot for each instance variable value is created
+            iii)  Instance variables are created when an object is created with the use of the keyword 'new' and destroyed when the object is destroyed
+            iv)  Instance variables hold values that must be referenced by more than one method, constructor or block, or essential parts of an object's state that must be present throughout the class
+            v)   Instance variables can be declared in class level before or after use
+            vi)   Access modifiers can be given for instance variables.
+            vii) The instance variables are visible for all methods, constructors and block in the class. Normally, it is recommended to make these variables private (access level). However, visibility for subclasses can be given for these variables with the use of access modifiers.
+           viii) Instance variables have default values. For numbers, the default value is 0, for Booleans it is false, and for object references it is null. Values can be assigned during the declaration or within the constructor.
+            ix)   Instance variables can be accessed directly by calling the variable name inside the class. However, within static methods (when instance variables are given accessibility), they should be called using the fully qualified name. ObjectReference.VariableName.     

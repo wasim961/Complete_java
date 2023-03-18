@@ -1,0 +1,57 @@
+                                           Methods
+                                           
+     method is collection of statements that are grouped together to perform operation.
+     
+     creating method-----
+     
+       modifier, return type, method_name(parameters)
+           {
+               body
+           }
+       modifier---   define access type of method. it is optional to use.
+       return type---  method may return a value
+       parameters---  method may contain 0 parameters, it is type , order and number of parameters.
+       body----   defines what the method does with the statements.
+       
+       
+    Method calling---
+        two way in which method is called----
+        1) method returns a value
+        2) method returning nothing
+        
+    Process of calling method------------
+    
+    when we called a method in that case controller will transferred to  that method and return a value 
+    or reach closing braces and then controller will shit to the caller.
+    
+    two condition to execute method--
+      1) the return statement is executed
+      2) it reaches the method ending closing braces.
+      
+      
+      
+                                         Void key word
+                                         
+      it allow us to creat a method which do not return a value.
+ NOTE---  call to void method must be a statement.
+      
+      
+                                         This Key Word
+                                         
+      used as a reference to the object of the current class.
+      with the help of this keyword we can differentiate b/w local var and instance var if they have 
+      same names,within a constructor or methods.
+ NOTE--- this keyword is used only within instance method or constructors.
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+            
+      
